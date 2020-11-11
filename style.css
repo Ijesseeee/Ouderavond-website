@@ -1,0 +1,263 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: skyblue;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+nav {
+    width: 240px;
+    height: 100vh;
+    background-color: #213970;
+    font-size: 17px;
+}
+
+nav ul {
+    display: block;
+}
+
+nav ul li {
+    padding: 2.46vh 0px 2.46vh 10px
+}
+
+nav ul li a {
+    color: skyblue;
+}
+
+nav ul li:hover {
+    background-color: skyblue;
+}
+
+nav ul li:hover a {
+    color:#213970;
+}
+
+.active {
+    background-color: skyblue;
+}
+
+.active a {
+    color: #213970;
+}
+
+.infoboxes {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    margin: 20px 0px 0px 350px;
+}
+
+.infoboxes li {
+    width: 600px;
+    height: 40vh;
+    margin: 25px 25px 20px 30px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #213970;
+    border-radius: 15px; 
+    background-color: #213970;
+    color: skyblue;
+}
+
+.infoboxes li p { 
+    margin: 25px 0px 0px 0px;
+    color: orange;
+}
+
+.infoboxes li h3 {
+    color: orange;
+}
+
+.maps {
+    display: flex;
+    height: 470px;
+    background-color: #213970;
+    padding: 20px 20px 0px 20px;
+    margin: 200px 0px 0px 250px;
+    border: 1px solid #213970;
+    border-radius: 15px;
+}
+
+.maps p {
+    width: 220px;
+    padding: 0px 0px 0px 20px;
+}
+
+.orangeText {
+    color: orange;
+}
+
+.contact {
+    margin: 50px 0px 0px 100px;
+    padding: 20px;
+    width: 450px;
+    height: 250px;
+    background-color: #213970;
+    color: orange;
+    border: 1px solid#213970;
+    border-radius: 15px;
+}
+
+.contact tr th{
+    border: 1px solid orange;
+}
+
+.contactForm {
+    margin: 50px 0px 0px 100px;
+}
+
+.logoTCRMBO {
+    height: 250px;
+    margin: 200px 0px 0px 450px;
+    padding: 25px;
+    color: #213970;
+}
+
+.logoTCRMBO img {
+    margin: 50px 0px 0px 100px;
+    width: 400px;
+}
+
+.bindendstudadv {
+    padding:50px;
+    width: 1000px;
+}
+
+.bindendstudadv li {
+    padding: 10px;
+}
+
+.bindendstudadv li img {
+    width: 500px;
+}
+
+.infoboxes .uitlegbox {
+    width: 1275px;
+}
+
+.infoboxes li p {
+    padding: 0px 40px;
+}
+
+.maatregelenInfoBox {
+    list-style: circle;
+    margin: 150px 0px 0px 250px;
+}
+
+.maatregelenInfoBox li {
+    padding: 15px 0px 15px 0px;
+    list-style: circle;
+}
+
+.belangdocumentenInfoBox {
+    margin: 100px 0px 0px 450px
+}
+
+.belangdocumentenInfoBox li {
+    text-align: center;
+}
+
+.belangdocumentenInfoBox img{
+    padding: 100px 0px 0px 0px;
+    width: 800px;
+}
+
+.coronaplaatje {
+    height: 400px;
+    margin: 75px 0px 0px 100px;
+}
+
+.infoboxRegels {
+    margin: 30px 0px 0px 100px;
+    width: 1000px;
+}
+
+.infoboxRegels li{
+    list-style: circle;
+    padding: 10px
+}
+
+.plaatjeplanning {
+    margin: 50px 0px 0px  100px;
+    height: 700px;
+}
+
+.infoboxPlanning {
+    color: orange;
+    margin: 50px 0px 0px 50px;
+    background-color: #213970;
+    width: 300px;
+    height: 80px;
+    border: 1px solid #213970;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.algemeninfokeuzedeel {
+    padding: 30px 60px;
+}
+
+.infoboxVoorstelRonde {
+    margin: 50px 0px 0px 100px;
+    width: 300px;
+}
+
+.posterPic {
+    margin: 50px 0px 0px 50px;
+    height: 500px;
+}
+
+.teamsopdrachten {
+    margin: 50px 0px 0px 100px;
+    height: 400px;
+}
+
+.infoboxTeams {
+    margin: 50px 0px 0px 100px;
+    width: 400px;
+    height: 100px;
+}
+
+.infoboxToekomst {
+    margin: 50px 0px 0px 100px;
+    width: 600px;
+}
+
+.plaatjeToekomst {
+    margin: 50px 0px 0px 100px;
+    height: 200px;
+}
+
+.submit{ 
+    padding: 2px;
+}
+
+.verstuurd {
+    margin: 300px 0px 0px 400px ;
+    font-weight: bold;
+    color: #213970;
+}
+
+.vakken {
+    margin: 50px 0px 0px 100px;
+}
+
+.vakken h3 {
+    padding: 0px 0px 25px 0px;
+}
+
+.vakken li {
+    list-style: circle;
+    padding: 5px 0px 5px 0px
+}
+
